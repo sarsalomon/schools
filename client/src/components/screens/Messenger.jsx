@@ -3,7 +3,7 @@ import axios from "axios"
 import { Context } from "../../context/Context"
 
 function Messenger(props) {
-    const axiosInstance = axios.create({baseURL:'http://5.182.26.105/api/'})
+    const axiosInstance = axios.create({baseURL:'https://28maktab.uz/api/'})
     const [message, setMessage] = useState([])
     const [name, setName] = useState("")
     const [messageid, setMessageid] = useState({});

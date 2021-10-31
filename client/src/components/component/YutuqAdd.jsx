@@ -3,7 +3,7 @@ import axios from "axios"
 
 
 function YutuqaAdd() {
-    const axiosInstance = axios.create({baseURL:'http://5.182.26.105/api/'})
+    const axiosInstance = axios.create({baseURL:'https://28maktab.uz/api/'})
     const [file, setFile] = useState(null)
     const [title, ] = useState("")
     const [desc, ] = useState("")

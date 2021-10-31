@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useState } from 'react';
 
 function AddChildren() {
-    const axiosInstance = axios.create({baseURL:'http://5.182.26.105/api/'})
+    const axiosInstance = axios.create({baseURL:'https://28maktab.uz/api/'})
     const [name, setName] = useState("");
     const [lastname, setLastname] = useState("");
     const [fathername, setFathername] = useState("");

@@ -3,7 +3,7 @@ import React, {useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 function GetChildren() {
-    const axiosInstance = axios.create({baseURL:'http://5.182.26.105/api/'})
+    const axiosInstance = axios.create({baseURL:'https://28maktab.uz/api/'})
     const [loading, setLoading] = useState(false)
     const [childrenpost, setChildrenpost] = useState([]);
     const [son, setSon] = useState("")

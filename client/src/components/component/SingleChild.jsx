@@ -5,7 +5,7 @@ import { Context } from '../../context/Context';
 
 
 function SingleChild() {
-    const axiosInstance = axios.create({baseURL:'http://5.182.26.105/api/'})
+    const axiosInstance = axios.create({baseURL:'https://28maktab.uz/api/'})
     const location = useLocation()
     const path = location.pathname.split("/")[2]
     const [childpost, setChildpost] = useState({})
