@@ -4,7 +4,7 @@ import { Context } from "../../context/Context";
 import axios from "axios";
 
 function Login() {
-    const axiosInstance = axios.create({baseURL:process.env.REACT_APP_API_URL,})
+    const axiosInstance = axios.create({baseURL:'http://5.182.26.105/api/'})
     const userRef = useRef();
     const passwordRef = useRef()
     const {dispatch, isFetching, } = useContext(Context)

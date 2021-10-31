@@ -6,7 +6,7 @@ const PostPicture = "http://5.182.26.105:8080/images/";
 
 
 function CardsXodimlar() {
-    const axiosInstance = axios.create({baseURL:process.env.REACT_APP_API_URL,})
+    const axiosInstance = axios.create({baseURL:'http://5.182.26.105/api/'})
     const [teacherposts, setTeacherposts] = useState([]);
     const [loading, setLoading] = useState(false);
 

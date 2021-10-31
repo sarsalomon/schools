@@ -5,7 +5,7 @@ const PostPicture = "http://5.182.26.105:8080/images/";
 
 
 function Victories() {
-  const axiosInstance = axios.create({baseURL:process.env.REACT_APP_API_URL,})
+  const axiosInstance = axios.create({baseURL:'http://5.182.26.105/api/'})
   const [yutuqlarimiz, setYutuqlarimiz] = useState([])
 
   useEffect(() => {

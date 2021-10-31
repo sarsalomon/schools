@@ -3,7 +3,7 @@ import axios from "axios"
 import { Context } from "../../context/Context"
 
 function Yangilikadd() {
-    const axiosInstance = axios.create({baseURL:process.env.REACT_APP_API_URL,})
+    const axiosInstance = axios.create({baseURL:'http://5.182.26.105/api/'})
 
     const [title, setTitle] = useState("")
     const [desc, setDesc] = useState("")

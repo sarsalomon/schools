@@ -21,7 +21,7 @@ import SingleChild from "./components/component/SingleChild"
 import Messenger from './components/screens/Messenger';
 
 function App() {
-  const axiosInstance = axios.create({baseURL:process.env.REACT_APP_API_URL,})
+  const axiosInstance = axios.create({baseURL:'http://5.182.26.105/api/'})
   const {user} = useContext(Context);
   const [apploading, setApploading] = useState(true)
   useEffect(() => {

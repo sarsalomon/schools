@@ -9,7 +9,7 @@ function Search() {
 
     const fetchPost = (query) => {
         setSearch(query)
-        fetch("http://5.182.26.105/api/posts/searchpost", {
+        fetch("http://5.182.26.105/api/'api/posts/searchpost", {
             method: "post",
             headers: {
                 "Content-Type": "application/json"

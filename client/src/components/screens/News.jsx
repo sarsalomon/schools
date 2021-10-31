@@ -4,7 +4,7 @@ import axios from "axios"
 import Pagination from "../component/Pagination";
 
 function News() {
-  const axiosInstance = axios.create({baseURL:process.env.REACT_APP_API_URL,})
+  const axiosInstance = axios.create({baseURL:'http://5.182.26.105/api/'})
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
